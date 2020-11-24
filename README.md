@@ -3,7 +3,7 @@
 Please reference the following work:
 N. Schopp, V. Brus*, J. Lee, G. C. Bazan, T.-Q. Nguyen*, Advanced Energy Materials 2020, DOI 10.1002/aenm.202002760.
 
-And reference for the Transfer matrix part 1:
+Reference for the Transfer matrix part 1:
 G. F.[1]G. F. Burkhard, E. T. Hoke, M. Group, 2011, 6.
 Burkhard, E. T. Hoke, M. D. McGehee, Adv. Mater. 2010, 22, 3293.
 
