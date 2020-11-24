@@ -11,6 +11,7 @@ Burkhard, E. T. Hoke, M. D. McGehee, Adv. Mater. 2010, 22, 3293.
 To use the code for device optimization, follow the step-by-step guide in the SI.
 
 Recommendations for Python Beginners:
+
 Install Anaconda and Spyder, import the .py (code) file into Spyder.
 Download the required nk data in one of your folders, as well as the AM1.5 file and the EQE file. 
 You can replace the EQE file with your own EQE file as well as replace the AM1.5 with the spectrum of interest and use your own optical properties as desired. 
