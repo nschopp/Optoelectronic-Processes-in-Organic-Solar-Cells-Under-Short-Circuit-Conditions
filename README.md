@@ -49,6 +49,3 @@ Using the provided software (see below) to obtain μτ and the extraction effici
 Calculation of the extraction probability η(x) for each thickness L of interest, then averaging η(x) to get extraction efficiency η ̅  for each L.
 Simulation of the Jsc,ideal for each L (no losses) with TMM under 1 sun AM 1.5 or the spectrum of your interest. (blue curve)
 Product of Pg, η(L) and simulated Jsc,ideal give predicted Jsc. (red curve)
-
-The combined software can be accessed publicly and used under the GNU license agreement after the date of publication of this work. It can be found together with the optical constants provided in the manuscript under https://github.com/nschopp/Optoelectronic-Processes-in-Organic-Solar-Cells-Under-Short-Circuit-Conditions. 
-
