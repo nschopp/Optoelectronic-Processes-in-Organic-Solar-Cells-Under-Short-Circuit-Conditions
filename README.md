@@ -35,6 +35,7 @@ l 435 path_EQE="" (your experimental EQE data)
 After obtaining the optical constants of the active layer and of other layers that are not provided in this work or other literature, the following steps lead to the prediction of the thickness-dependent Jsc.
 
 Experimental steps:
+
 Fabrication of at least one solar cell  (thickness measurement should be done after completing the other experimental steps) 
 Measurement of the JV characteristics at 1 sun and in the dark (to obtain Vbi) 
 Measurement of the EQE
