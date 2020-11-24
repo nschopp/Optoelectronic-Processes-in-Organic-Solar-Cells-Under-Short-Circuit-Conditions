@@ -4,7 +4,6 @@ Please reference the following work:
 N. Schopp, V. Brus*, J. Lee, G. C. Bazan, T.-Q. Nguyen*, Advanced Energy Materials 2020, DOI 10.1002/aenm.202002760.
 
 
-Software
 The python-based software created for this work operates in conjunction with the transfer matrix method software that was developed by George F. Burkhard, Eric T. Hoke at Stanford University.[2]
 Our part of the code includes:
 the visualization of the 3D Generation rate
