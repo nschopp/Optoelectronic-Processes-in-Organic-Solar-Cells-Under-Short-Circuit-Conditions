@@ -6,7 +6,7 @@ A Simple Approach for Unraveling Optoelectronic Processes in Organic Solar Cells
 
 N. Schopp, V. Brus*, J. Lee, G. C. Bazan, T.-Q. Nguyen*
 
-Advanced Energy Materials 2020 
+*Adv. Energy Mater.* **2021**, *11*, 2002760
 
 [https://doi.org/10.1002/aenm.202002760](https://doi.org/10.1002/aenm.202002760)
 
