@@ -1,8 +1,16 @@
 # Optoelectronic-Processes-in-Organic-Solar-Cells-Under-Short-Circuit-Conditions
 
 Please reference the following work:
-N. Schopp, V. Brus*, J. Lee, G. C. Bazan, T.-Q. Nguyen*, Advanced Energy Materials 2020, DOI 10.1002/aenm.202002760.
 
+A Simple Approach for Unraveling Optoelectronic Processes in Organic Solar Cells under Short-Circuit Conditions
+
+N. Schopp, V. Brus*, J. Lee, G. C. Bazan, T.-Q. Nguyen*
+
+Advanced Energy Materials 2020 
+
+[https://doi.org/10.1002/aenm.202002760](https://doi.org/10.1002/aenm.202002760)
+
+---
 
 The python-based software created for this work operates in conjunction with the transfer matrix method software that was developed by George F. Burkhard, Eric T. Hoke at Stanford University.
 
