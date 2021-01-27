@@ -36,7 +36,7 @@ print(
 )
 
 
-# ______Part1__________:
+#%%______Part1__________:
 
 # Modified by Nora Schopp, 12/2019, University of California, Santa Barbara
 # Modifed by Benjamin R. Luginbuhl 01/2021, University of California, Santa Barbara
@@ -425,7 +425,7 @@ if plotGeneration:
 
 # END OF PART ONE
 
-#______Part2__________:
+#%%______Part2__________:
 
 import pandas as pd
 import numpy as np
@@ -460,7 +460,7 @@ ax.set_zlabel("G (cm$^{-3}$ s$^{-1}$)", size=12)
 fig.savefig(savepath + "PCE10_COTIC-4F_3Dgenerationrate.tif", transparent=True, dpi=400)
 plt.show()
 
-#________INPUT:_________
+#%%________INPUT:_________
 # measured EQE spectrum and AM1.5 spectrum in your directory:
 path_EQE = "./EOE_N235_AExport_EQE.csv"
 path_AM15 = "./nk/AM15G.csv"
@@ -519,8 +519,7 @@ I = wl_and_I_needed[:, 1]  # intensities of AM1.5G for the wavelength used in OM
 photonflux = (I * 1e-3) / ((1240 / wavelength) * sc.e)
 L_nm = L_cm * 1e7
 
-# Theoretical EQE Calculation Loop or 'Hecht Calculation loop'
-# EQE_hecht = EQE that has been calulated with Hecht equation, Pg for all mutau
+#%%______Theoretical EQE Calculation Loop or 'Hecht Calculation loop'EQE_hecht = EQE that has been calulated with Hecht equation, Pg for all mutau______
 Jsc_ideal = np.zeros([len(wavelength)])  # ideal = for 100% extraction
 EQE_ideal = np.zeros([len(wavelength)])
 Jsc_ideal_reduced_by_gem_rec = np.zeros([len(wavelength)])
@@ -583,7 +582,7 @@ for l in np.arange(0, len(wavelength)):
                 mt, 1
             ] = average_deviation  # array to correlate average deviation with corresponding mu and tau values
 
-# find smallest average deviation for all mu-tau-products
+#%%find smallest average deviation for all mu-tau-products
 # least square fit
 Every_r_squared = np.zeros([len(mutau)])
 for mt in np.arange(0, len(mutau)):
@@ -651,6 +650,7 @@ output_EQEs = pd.DataFrame(
 )
 output_EQEs.to_csv(savepath + "calculated_EQEs.csv")
 
+#%%
 Jsc_Am15 = np.sum(EQE_measured * photonflux * 5 * sc.e * 1000)
 
 print("Jsc from EQE Am1.5=")
@@ -722,6 +722,7 @@ plt.legend()
 plt.savefig(savepath + "Extraction Efficency at -3 V.tif", dpi=300)
 plt.show()
 
+#%%#%%
 # (spatially averaged) extraction efficiency at 0V with optimized mutau
 
 L_nm = np.arange(0, 200)
